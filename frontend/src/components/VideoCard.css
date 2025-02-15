@@ -1,0 +1,36 @@
+/* src/components/VideoCard.css */
+.video-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .video-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .video-card__thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-card__info {
+    padding: 10px;
+  }
+  
+  .video-card__title {
+    font-size: 1.1rem;
+    margin: 0 0 5px;
+  }
+  
+  .video-card__channel,
+  .video-card__views {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+  }
+  
